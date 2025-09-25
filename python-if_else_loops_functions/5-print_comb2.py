@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-def print_comb2():
+def comb2():
     for number in range(0, 100):
         if number == 99:
             print("{:02}".format(number))
@@ -10,4 +10,4 @@ def print_comb2():
                 
 
 if __name__ == "__main__":
-    print_comb2()
+    comb2()
