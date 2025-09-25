@@ -2,7 +2,8 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10, 10)
-# YOUR CODE HERE
+
+
 def positive_or_negative(i):
     """Prints whether a number is positive or negative.
     Args:
@@ -15,4 +16,6 @@ def positive_or_negative(i):
     else:
         print(f"{i} is positive")
     return
+
+
 positive_or_negative(number)
