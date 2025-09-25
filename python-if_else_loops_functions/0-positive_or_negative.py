@@ -5,10 +5,7 @@ number = random.randint(-10, 10)
 
 
 def positive_or_negative(i):
-    """Prints whether a number is positive or negative.
-    Args:
-        i (int): The number to evaluate.
-    """
+    
     if i < 0:
         print(f"{i} is negative")
     elif i == 0:
