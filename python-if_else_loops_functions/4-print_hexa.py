@@ -2,8 +2,8 @@
 
 
 def print_hexa():
-    for num in range(0, 99):
-        print("{:02d} = 0x{:x}".format(num, num))
+    for number in range(0, 99):
+        print("{} = {}".format(number, hex(number)))
 
 
 if __name__ == "__main__":
