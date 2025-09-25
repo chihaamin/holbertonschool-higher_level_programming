@@ -10,6 +10,8 @@ def positive_or_negative(i):
     """
     if i < 0:
         print(f"{i} is negative")
+    elif i == 0:
+        print(f"{i} is zero")
     else:
         print(f"{i} is positive")
     return
