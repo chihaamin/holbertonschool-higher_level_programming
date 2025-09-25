@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+
+
+def print_hexa():
+    for num in range(0, 99):
+        print("{:02d} = 0x{:x}".format(num, num))
+    print("")  # Print a newline at the end
+
+
+if __name__ == "__main__":
+    print_hexa()
