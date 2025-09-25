@@ -7,7 +7,7 @@ def comb2():
             print("{:02}".format(number))
         else:
             print("{:02}".format(number), end=", ")
-                
+
 
 if __name__ == "__main__":
     comb2()
